@@ -1,0 +1,14 @@
+{
+  "name": "store-license-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "连锁门店证照台账与续证管理系统（SQLite 版本链 + 审核链 + 进程内提醒）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test 'test/*.test.js'"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
